@@ -196,17 +196,17 @@ const ProductForm = () => {
             />
           </Box>
         </Grid>
-      </Grid>
-      <Grid item xs={12}>
-        <Checkbox {...label} sx={{ color: styles.color.lightDark }} />{" "}
-        <span
-          style={{
-            color: styles.color.lightWhite,
-            fontSize: styles.font.medium,
-          }}
-        >
-          Rush order
-        </span>
+        <Grid item xs={12}>
+          <Checkbox {...label} sx={{ color: styles.color.lightDark }} />{" "}
+          <span
+            style={{
+              color: styles.color.lightWhite,
+              fontSize: styles.font.medium,
+            }}
+          >
+            Rush order
+          </span>
+        </Grid>
       </Grid>
       <Box sx={{ mt: 4 }}>
         <InputLabel
