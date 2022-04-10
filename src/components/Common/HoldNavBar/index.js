@@ -19,7 +19,12 @@ const HoldNavBar = ({ styles, status }) => {
         sx={{ display: "flex", justifyContent: "space-between", px: 4, py: 1 }}
       >
         <Grid container spacing={2}>
-          <Grid item xs={12} sm={3}>
+          <Grid
+            item
+            xs={12}
+            sm={3}
+            sx={{ display: "flex", alignItems: "center" }}
+          >
             <Box
               sx={{
                 height: "50px",

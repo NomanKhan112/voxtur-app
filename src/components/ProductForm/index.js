@@ -30,6 +30,7 @@ const ProductForm = () => {
   const handleChange = (event) => {
     setProduct(event.target.value);
   };
+
   const Input = styled("input")({
     display: "none",
   });
