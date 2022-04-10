@@ -17,6 +17,9 @@ const LoanInfoForm = () => {
       backgroundColor: "#222222",
       borderRadius: 0,
     },
+    "& .Mui-focused": {
+      borderRadius: 0,
+    },
     "& .MuiInputBase-input": {
       color: "#adadad",
       height: "1rem",

@@ -11,6 +11,9 @@ export const styles = {
     padding: "14px",
     textTransform: "capitalize",
   },
+  "& .Mui-focused": {
+    borderRadius: 0,
+  },
   ".MuiTabs-flexContainer": {
     display: "flex",
     flexWrap: "wrap",
