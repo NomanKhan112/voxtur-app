@@ -19,7 +19,7 @@ const ContactCard = ({ item, styles, isEditContacts }) => {
       <Card
         sx={{
           height: "100%",
-          minWidth: "250px",
+          minWidth: "240px",
           py: 1,
           mr: 3,
           backgroundColor: styles.color.dark,
