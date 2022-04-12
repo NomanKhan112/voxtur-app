@@ -298,6 +298,7 @@ const ProductForm = () => {
               sx={{
                 ml: 1,
                 fontSize: styles.font.large,
+                color: styles.color.lightDark,
               }}
             />
           </Box>
@@ -320,6 +321,7 @@ const ProductForm = () => {
               sx={{
                 ml: 1,
                 fontSize: styles.font.large,
+                color: styles.color.lightDark,
               }}
             />
           </Box>
