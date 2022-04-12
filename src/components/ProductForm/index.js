@@ -196,7 +196,7 @@ const ProductForm = () => {
           </Box>
         </Grid>
         <Grid item xs={12}>
-          <Checkbox {...label} sx={{ color: styles.color.lightDark }} />{" "}
+          <Checkbox {...label} sx={{ color: styles.color.lightDark, p: 0.2 }} />{" "}
           <span
             style={{
               color: styles.color.lightWhite,
