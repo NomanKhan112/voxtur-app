@@ -275,7 +275,7 @@ const DeliveredForm = ({ styles }) => {
             >
               <Typography
                 sx={{
-                  fontSize: styles.font.medium,
+                  fontSize: styles.font.large,
                   fontWeight: "600",
                   display: "flex",
                   color: styles.color.lightWhite,
@@ -384,7 +384,7 @@ const DeliveredForm = ({ styles }) => {
             >
               <Typography
                 sx={{
-                  fontSize: styles.font.medium,
+                  fontSize: styles.font.large,
                   fontWeight: "600",
                   display: "flex",
                   color: styles.color.lightWhite,
@@ -426,7 +426,7 @@ const DeliveredForm = ({ styles }) => {
           <Grid item xs={12} sm={7} md={6}>
             <Typography
               sx={{
-                fontSize: styles.font.medium,
+                fontSize: styles.font.large,
                 fontWeight: "600",
                 display: "flex",
                 color: styles.color.lightWhite,
