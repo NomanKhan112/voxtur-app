@@ -85,6 +85,7 @@ const SentRequest = () => {
               textTransform: "capitalize",
               fontWeight: "500",
               color: styles.color.lightWhite,
+              opacity: "0.9",
             }}
           >
             Your request has been sent
@@ -107,7 +108,7 @@ const SentRequest = () => {
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enimd
-            tempor incididunt ut labore .
+            tempor.
           </Typography>
         </Item>
         <Item

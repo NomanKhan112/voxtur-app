@@ -526,7 +526,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           April 2,2022-2:12pm
@@ -538,7 +538,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           On hold! Action required
@@ -550,7 +550,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -574,7 +574,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           April 2,2022-2:12pm
@@ -586,7 +586,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           Order accepted
@@ -609,7 +609,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           April 2,2022-2:12pm
@@ -621,7 +621,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           Order recieved
@@ -644,7 +644,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           April 2,2022-2:12pm
@@ -656,7 +656,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           Order sent
@@ -679,7 +679,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           April 2,2022-2:12pm
@@ -691,7 +691,7 @@ const DeliveredForm = ({ styles }) => {
                           display="block"
                           sx={{
                             color: styles.color.lightDark,
-                            fontSize: styles.font.medium,
+                            fontSize: styles.font.small,
                           }}
                         >
                           Order requested

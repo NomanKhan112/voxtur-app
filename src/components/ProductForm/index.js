@@ -172,7 +172,7 @@ const ProductForm = () => {
           </Box>
         </Grid>
         <Grid item xs={12} lg={6}>
-          <Box sx={{ m: 2 }} className="product-textarea">
+          <Box sx={{ mt: 2 }} className="product-textarea">
             <FormHelperText
               sx={{
                 textTransform: "uppercase",
@@ -182,17 +182,16 @@ const ProductForm = () => {
             >
               instruction
             </FormHelperText>
-            <TextareaAutosize
-              aria-label="minimum height"
-              minRows={7}
-              placeholder=" Add as many details as possible. The more the better..."
-              style={{
-                width: "100%",
-                padding: "10px",
-                boxSizing: "border-box",
+            <TextField
+              className="hold-textarea"
+              multiline
+              rows={4}
+              fullWidth={true}
+              defaultValue="Add as many details as possible. The more the better..."
+              sx={{
                 border: `1px solid  ${styles.color.lightDark}`,
-                backgroundColor: "transparent",
-                fontSize: styles.font.medium,
+                backgroundColor: "#000",
+                p: "0 !inportant",
               }}
             />
           </Box>

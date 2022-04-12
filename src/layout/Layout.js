@@ -1,8 +1,18 @@
 import React from "react";
-import { Container } from "./styles";
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 const Layout = ({ children }) => {
-  return <Container>{children}</Container>;
+  const theme = createTheme({
+    palette: {
+      primary: {
+        main: "#8CEBAF",
+      },
+      secondary: {
+        main: "#fff",
+      },
+    },
+  });
+  return <ThemeProvider theme={theme}>{children}</ThemeProvider>;
 };
 
 export default Layout;

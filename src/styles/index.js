@@ -4,6 +4,7 @@ export const styles = {
     width: "100%",
     border: "1px solid #7F7F7F",
     borderRadius: 0,
+    outline: 0,
   },
   "& .MuiInputBase-input": {
     color: "#adadad",
@@ -13,6 +14,7 @@ export const styles = {
   },
   "& .Mui-focused": {
     borderRadius: 0,
+    outline: 0,
   },
   ".MuiTabs-flexContainer": {
     display: "flex",
@@ -30,7 +32,6 @@ export const styles = {
   button: {
     "& .MuiButton‑root": {
       borderRadius: 0,
-      backgroundColor: "red",
       backgroundImage:
         "linear-gradient(to right, #69F0C3   , #1CFBEF , #00FFFF)",
       color: "#000",

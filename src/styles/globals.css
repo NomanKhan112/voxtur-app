@@ -97,7 +97,12 @@ a {
 }
 .hold-textarea textarea,
 .product-textarea textarea {
-  color: #fff !important;
+  padding: 0.1rem !important;
+  font-size: 0.9rem;
+  color: #adadad !important;
+}
+.hold-textarea textarea:focus {
+  outline: 0 !important;
 }
 /* Track */
 .hold-scroll ::-webkit-scrollbar-track {

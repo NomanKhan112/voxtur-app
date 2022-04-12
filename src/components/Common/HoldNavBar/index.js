@@ -6,9 +6,10 @@ import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
+import { styles } from "../../../styles";
 import Logo from "../../../../public/images/logo.png";
 
-const HoldNavBar = ({ styles, status }) => {
+const HoldNavBar = ({ status }) => {
   return (
     <Box
       sx={{

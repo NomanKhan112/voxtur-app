@@ -3,8 +3,8 @@ import OrderSection from "../components/OrderSection";
 
 export default function Home() {
   return (
-    <div>
+    <Layout>
       <OrderSection />
-    </div>
+    </Layout>
   );
 }

@@ -28,7 +28,8 @@ function TabPanel(props) {
             minHeight: "100vh",
           }}
         >
-          <Typography>{children}</Typography>
+          <>{children}</>
+          {/* <Typography>{children}</Typography> */}
         </Box>
       )}
     </div>

@@ -486,14 +486,14 @@ const SubmitData = () => {
                     />
                   }
                 >
-                  {contactInfo.map((item) => (
-                    <>
+                  {contactInfo.map((item, index) => (
+                    <span key={index}>
                       <ContactCard
                         item={item}
                         styles={styles}
                         isEditContacts={false}
                       />
-                    </>
+                    </span>
                   ))}
                 </Carousel>
               </Box>

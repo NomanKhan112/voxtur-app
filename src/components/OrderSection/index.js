@@ -15,10 +15,10 @@ const OrderSection = () => {
     },
   });
   return (
-    <ThemeProvider theme={theme}>
+    <>
       <TopBar />
       <OrderTab />
-    </ThemeProvider>
+    </>
   );
 };
 

@@ -121,7 +121,6 @@ const ContactCard = ({ item, styles, isEditContacts }) => {
               </ListItem>
             </List>
           </CardContent>
-          {console.log(isEditContacts)}
           {isEditContacts && (
             <CardActions
               sx={{

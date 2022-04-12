@@ -22,6 +22,7 @@ import Stack from "@mui/material/Stack";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import { styled } from "@mui/material/styles";
+import { styles } from "../../../styles";
 import Image from "next/image";
 import ActionRequired from "../../../../public/images/attention.png";
 
@@ -30,10 +31,9 @@ const Item = styled(Paper)(({ theme }) => ({
   ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: "center",
-  color: theme.palette.text.secondary,
 }));
 
-const HoldForm = ({ styles }) => {
+const HoldForm = () => {
   const Input = styled("input")({
     display: "none",
   });
@@ -484,7 +484,10 @@ const HoldForm = ({ styles }) => {
                         </span>
                       </Typography>
                     </Box>
-                    <Box sx={{ my: 2, width: "100%" }}>
+                    <Box
+                      sx={{ my: 2, width: "100%" }}
+                      className="hold-textarea"
+                    >
                       <FormHelperText
                         sx={{
                           textTransform: "uppercase",
@@ -495,7 +498,6 @@ const HoldForm = ({ styles }) => {
                         add comments
                       </FormHelperText>
                       <TextField
-                        className="hold-textarea"
                         multiline
                         rows={4}
                         fullWidth={true}

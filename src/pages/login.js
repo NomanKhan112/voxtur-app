@@ -1,5 +1,5 @@
 import Container from "@mui/material/Container";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Layout from "../layout/Layout";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import Link from "next/link";
@@ -10,18 +10,8 @@ import InputLabel from "@mui/material/InputLabel";
 import { styles } from "../styles";
 
 const Login = () => {
-  const theme = createTheme({
-    palette: {
-      primary: {
-        main: "#8CEBAF",
-      },
-      secondary: {
-        main: "#fff",
-      },
-    },
-  });
   return (
-    <ThemeProvider theme={theme}>
+    <Layout>
       <div className="login-container">
         <Container
           sx={{
@@ -108,7 +98,7 @@ const Login = () => {
           </Grid>
         </Container>
       </div>
-    </ThemeProvider>
+    </Layout>
   );
 };
 export default Login;
