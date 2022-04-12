@@ -9,7 +9,6 @@ import MenuItem from "@mui/material/MenuItem";
 import TextField from "@mui/material/TextField";
 import Stack from "@mui/material/Stack";
 import InputLabel from "@mui/material/InputLabel";
-import TextareaAutosize from "@mui/material/TextareaAutosize";
 import Checkbox from "@mui/material/Checkbox";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
@@ -52,10 +51,10 @@ const ProductForm = () => {
             sx={{
               display: "flex",
               flexDirection: "column",
-              m: 2,
+              mY: 2,
             }}
           >
-            <FormControl sx={{ mb: 2 }} fullWidth>
+            <FormControl sx={{ mb: 2, mt: 1 }} fullWidth>
               <FormHelperText
                 sx={{
                   textTransform: "uppercase",
@@ -172,7 +171,7 @@ const ProductForm = () => {
           </Box>
         </Grid>
         <Grid item xs={12} lg={6}>
-          <Box sx={{ mt: 2 }} className="product-textarea">
+          <Box sx={{ mt: 1 }} className="product-textarea">
             <FormHelperText
               sx={{
                 textTransform: "uppercase",
